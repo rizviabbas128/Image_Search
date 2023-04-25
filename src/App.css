@@ -1,0 +1,60 @@
+.contain {
+
+    columns: 3;
+    column-gap: 5px;
+    width: 80%;
+    margin: 2px auto;
+}
+
+.contain img {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+.App h1 {
+    font-weight: 700;
+    margin-right: 373px;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.head input {
+    width: 600px;
+    height: 30px;
+    font-size: medium;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 15px;
+}
+
+.head input:focus {
+    outline: none;
+}
+
+.head button {
+    background-color: black;
+    border-color: black;
+    color: #ffffff;
+    width: 5vw;
+    height: 4.4vh;
+    border-radius: 15px;
+    margin-left: 0.3rem;
+    font-size: 16px;
+}
+
+.head button:hover {
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
+
+* {
+    background-color: rgb(222, 221, 221);
+}
